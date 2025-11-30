@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="assets/css/cart.css" />
+<link rel="stylesheet" href="assets/css/nav.css">
+</head>
+<body>
+
+  <nav class="banner-signup">
+    <p>Sign up and get 20% off your first order. <a href="#">Signup now</a></p>
+  </nav>
+
+  <div class="bg-nav">
+    <nav class="nav2">
+      <img src="assets/img/vector/shop.png" class="brand-image" alt="Brand Logo">
+      <ul class="top-list">
+        <li>Shop</li>
+        <li>On Sale</li>
+        <li>New Arrivals</li>
+        <li>Brands</li>
+      </ul>
+      <div class="search-container">
+        <img src="assets/img/vector/search-logo.png" class="search-logo" alt="Search Icon">
+        <input type="text" placeholder="Search for products..." class="input-search">
+      </div>
+      <div class="icons-container">
+        <img src="assets/img/vector/Frame.png" class="carttop" alt="Cart Icon">
+        <img src="assets/img/vector/userlogo.png" class="userlogo" alt="User Icon">
+      </div>
+    </nav>
+  </div>
+
+  <nav class="breadcrumb">
+  <a href="index.html">Home</a>
+  <span>›</span>
+  <strong>Cart</strong>
+</nav>
+
+<div class="bodycheck">
+ 
+</div>
+
+  <div class="cart-container">
+    <h1 class="title">YOUR CART</h1>
+
+    <div class="cart-content">
+      <!-- Left side: Items -->
+       <div class="yourcartbody">
+
+       
+      <div class="cart-items">
+       
+  
+      </div>
+</div>
+      <!-- Right side: Summary -->
+      <div class="order-summary">
+        <h2>Order Summary</h2>
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <span class="Subtotal">$0.OO</span>
+        </div>
+        <div class="summary-line discount">
+          <span class="discountPersent">Discount(0.0%)</span></span>
+          <span class="discountTotal">-$0.00</span>
+        </div>
+        <div class="summary-line">
+          <span>Delivery Fee</span>
+          <span class="FeeDelivery">$0.00</span>
+        </div>
+        <hr />
+        <div class="summary-total">
+          <span>Total</span>
+          <span class="totalCart">$0.00</span>
+        </div>
+
+        <div class="promo">
+          <input type="text" placeholder="Add promo code" />
+          <button>Apply</button>
+        </div>
+
+        <button class="checkout-btn">Go to Checkout →</button>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/cart.js"></script>
+  <script>
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.toggle("open");
+});
+</script><script src="assets/js/warning.js"></script>
+
+
+</body>
+</html>

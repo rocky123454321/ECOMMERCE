@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOP.CO</title>
+  <link rel="stylesheet" href="assets/css/check.css">
+  <link rel="stylesheet" href="assets/css/nav.css">
+</head>
+<body>
+
+  <nav class="banner-signup">
+    <p>Sign up and get 20% off your first order. <a href="#">Signup now</a></p>
+  </nav>
+
+  <div class="bg-nav">
+    <nav class="nav2">
+      <img src="assets/img/vector/shop.png" class="brand-image" alt="Brand Logo">
+      <ul class="top-list">
+        <li>Shop</li>
+        <li>On Sale</li>
+        <li>New Arrivals</li>
+        <li>Brands</li>
+      </ul>
+      <div class="search-container">
+        <img src="assets/img/vector/search-logo.png" class="search-logo" alt="Search Icon">
+        <input type="text" placeholder="Search for products..." class="input-search">
+      </div>
+      <div class="icons-container">
+        <img src="assets/img/vector/Frame.png" class="carttop" alt="Cart Icon">
+        <img src="assets/img/vector/userlogo.png" class="userlogo" alt="User Icon">
+      </div>
+    </nav>
+  </div>
+
+  <nav class="breadcrumb">
+  <a href="index.html">Home</a>
+  <span>›</span>
+  <strong>checkout</strong>
+</nav>
+<div class="bodycheck">
+ 
+</div>
+
+  <div class="popbody">
+    <div class="popUp"> 
+      <div id="popimage">
+        <img src="assets/img/vector/check.png" class="checklogo" alt="Check Icon">
+      </div>
+      <div class="textpop">
+        <h3>Success</h3>
+        <p>Your product has been added to the cart.</p>
+      </div>
+    </div>
+    <div class="linepop"></div>
+  </div>
+  <script src="data/product.js"></script>
+  <script src="assets/js/check.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/warning.js"></script>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.toggle("open");
+});
+</script>
+
+</body>
+</html>
